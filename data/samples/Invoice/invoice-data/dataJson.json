@@ -1,0 +1,23 @@
+{
+    "number": "123",
+    "items": [
+        {
+            "cod_produto": "ABC123",
+            "produto": "Calça jeans",
+            "saldo": 203,
+            "dtcriacao": "10/11/2019",
+            "estoque": "Principal",
+            "status": "Ativo",
+            "precounit": 6.00
+        },
+        {
+            "cod_produto": "ABC123",
+            "produto": "Calça jeans",
+            "saldo": 203,
+            "dtcriacao": "10/11/2019",
+            "estoque": "Principal",
+            "status": "Ativo",
+            "precounit": 6.00
+        }
+    ]
+}

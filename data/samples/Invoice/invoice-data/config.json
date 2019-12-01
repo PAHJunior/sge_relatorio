@@ -1,0 +1,13 @@
+{
+    "shortid": "Sy5S19ncg",
+    "name": "invoice-data",
+    "folder": {
+        "shortid": "G3i2B3"
+    },
+    "creationDate": "2019-11-25T05:36:05.205Z",
+    "modificationDate": {
+        "$$date": 1574661192406
+    },
+    "_id": "ZSbJ3LQ1BVYVnTAv",
+    "$entitySet": "data"
+}

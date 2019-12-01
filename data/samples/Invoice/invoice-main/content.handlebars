@@ -1,0 +1,80 @@
+<!--
+Invoice dynamically rendered into html using handlebars and converted into pdf
+using chrome-pdf recipe. The styles are extracted into separate asset for
+better readability and later reuse.
+
+Data to this sample are mocked at the design time and should be filled on the
+incoming API request.
+!-->
+
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <style>
+            {#asset invoice-styles.css @encoding=utf8}
+        </style>
+    </head>
+    <body>
+        <div class="invoice-box">
+            <table cellpadding="0" cellspacing="0">
+                <tr class="top">
+                    <td colspan="8">
+                        <table>
+                            <tr>
+                                <td class="title">
+                                    <img src="{#asset invoice-logo.png @encoding=dataURI}" style="width:100%; max-width:100px;" />
+                                </td>
+                                <td style="text-align: right">
+                                    Data: {{now}}
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <div class="information " style="text-align: center">
+                    <td>Relatorio de produtos</td>
+                </div>
+                <tr class="heading ">
+                    <td>Cod.</td>
+                    <td>Produto</td>
+                    <td>Data de criação</td>
+                    <td>Saldo</td>
+                    <td>Status</td>
+                    <td style="text-align: right">Preço Unit.</td>
+                </tr>
+                {{#each items}}
+                <tr class="item">
+                    <td>
+                        {{cod_produto}}
+                    </td>
+                    <td>
+                        {{produto}}
+                    </td>
+                    <td>
+                        {{dtcriacao}}
+                    </td>
+                    <td>
+                        {{saldo}}
+                    </td>
+                    <td>
+                        {{status}}
+                    </td>
+                    <td style="text-align: right">
+                        R$ {{precounit}}
+                    </td>
+                </tr>
+                {{/each}}
+                <tr class="total ">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="text-align: right">
+                        Total: R$ {{total items}}
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

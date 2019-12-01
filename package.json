@@ -1,0 +1,15 @@
+{
+  "name": "sge_relatorios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "jsreport start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsreport": "^2.6.1"
+  }
+}

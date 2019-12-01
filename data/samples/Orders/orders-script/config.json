@@ -1,0 +1,15 @@
+{
+    "shortid": "BJX1Jw82ce",
+    "name": "orders-script",
+    "folder": {
+        "shortid": "erkLzi"
+    },
+    "creationDate": {
+        "$$date": 1574660165982
+    },
+    "modificationDate": {
+        "$$date": 1574660165982
+    },
+    "_id": "0R76R3i7vQbsIeqm",
+    "$entitySet": "scripts"
+}

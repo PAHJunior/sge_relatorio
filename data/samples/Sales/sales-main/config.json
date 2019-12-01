@@ -1,0 +1,26 @@
+{
+    "folder": {
+        "shortid": "FnHe~Wz"
+    },
+    "shortid": "B1Q2SFTNr",
+    "name": "sales-main",
+    "recipe": "html-to-xlsx",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "htmlToXlsx": {
+        "htmlEngine": "chrome"
+    },
+    "data": {
+        "shortid": "B1lSTrt6NB"
+    },
+    "creationDate": {
+        "$$date": 1574660165320
+    },
+    "modificationDate": {
+        "$$date": 1574660165320
+    },
+    "_id": "ZOF9D959102FWkwt",
+    "$entitySet": "templates"
+}
