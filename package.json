@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jsreport": "^2.6.1"
+    "jsreport": "^3.8.0"
   }
 }
